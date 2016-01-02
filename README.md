@@ -14,3 +14,7 @@ nav.php hides some navigation tabs from people not logged into your forum or for
 nav_2.php hides no navigation tabs, but the navigation tabs can still be styled individually if you like. If you use this file, you will need to change it's name to nav.php.
 
 messages.inc.php introduces two CSS classes, message_posthead and message_postbody. The introduction of these two classes solved some styling issues for the right frame message board part of the forum.
+
+The top.php file shows the forum name in the center of the forum's header, and must be uploaded into the style's folder.
+
+Example: home/yoursite/public_html/Beehive/styles/your_style_folder <- This last folder is where you want it uploaded.
