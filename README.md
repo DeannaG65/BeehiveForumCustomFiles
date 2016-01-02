@@ -17,4 +17,4 @@ messages.inc.php introduces two CSS classes, message_posthead and message_postbo
 
 The top.php file shows the forum name in the center of the forum's header, and must be uploaded into the style's folder.
 
-Example: home/yoursite/public_html/Beehive/styles/your_style_folder <- This last folder is where you want it uploaded.
+Example: home/yoursite/public_html/Beehive/styles/style_folder <- This last folder is where you want it.
