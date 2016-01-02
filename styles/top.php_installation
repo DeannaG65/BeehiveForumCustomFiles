@@ -1,0 +1,5 @@
+top.php must be uploaded into your style folder, which you will find in your Beehive forum 'styles' folder.
+
+Example: home/yoursite/public_html/Beehive/styles/style_folder <- This last folder is where you want it.
+
+This top.php allows the forum name to show in the center of the forum header.
