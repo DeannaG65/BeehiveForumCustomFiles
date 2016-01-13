@@ -1,6 +1,8 @@
 <?php
 
 /*======================================================================
+This version of the nav.php does not limimte guest access. All navtabs are visible.
+
 Copyright Project Beehive Forum 2002
 
 This file is part of Beehive Forum.
