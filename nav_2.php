@@ -1,7 +1,7 @@
 <?php
 
 /*======================================================================
-This version of the nav.php does not limimte guest access. All navtabs are visible.
+This version of the nav.php does not limit guest access. All navtabs are visible.
 
 Copyright Project Beehive Forum 2002
 
