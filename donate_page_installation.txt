@@ -1,0 +1,20 @@
+The donate page allows you to collect donations to help pay the operating expenses of your site.
+ It also has a scrollable div for you to display other things if you want, like advertisers who will give you monies for sales.
+
+First you need to download a copy of donate.php and edit it to suit your needs. Instructions are included within the file.
+After editing, save it and upload it to your Beehive root directory.
+Examples:  home/user/public_html/Beehive or home/user/public_html/forum
+
+Next choose which nav.php file you want to use for your site.
+nav_donate.php limits gues access. Guests see Start, Message, Login, Register, and Donate.
+nav_donate2.php does not limit guest access to the navtabs.
+Once you've chosen which of these files you want to use, download and rename it to nav.php.
+Either rename the default nav.php you have on your site or delete it.
+My suggestion would be to keep a copy of it somewhere safe in the event you encounter unforeseen problems.
+Once you've cleared the way, upload your new nav.php file to your Beehive directory.
+
+Now all that is left is for you to  do a little CSS editing.
+Go your styles folder, then go into each style folder there and edit style.css.
+You need to add .nav_donate to it.
+You'll most likely want to style it the same as your other navtabs. so it's a good idea to put it in that section.
+It makes it easier if you need to find it.
