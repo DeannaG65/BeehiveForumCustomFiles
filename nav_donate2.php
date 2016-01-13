@@ -1,6 +1,8 @@
 <?php
 
 /*======================================================================
+This version of the nav.php includes a Donate tab and does not limit guest access.
+
 Copyright Project Beehive Forum 2002
 
 This file is part of Beehive Forum.
