@@ -1,6 +1,9 @@
 <?php
 
 /*======================================================================
+This version of the nav.php limits guest access by hiding some tabs from guests.
+Guests see Start, Messages, Login, and Register only.
+
 Copyright Project Beehive Forum 2002
 
 This file is part of Beehive Forum.
