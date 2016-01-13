@@ -1,6 +1,9 @@
 <?php
 
 /*======================================================================
+This version of the nav.php includes a Donate tab and limits guest access.
+Guests see Start, Messages, Login, Donate, and Register only.
+
 Copyright Project Beehive Forum 2002
 
 This file is part of Beehive Forum.
