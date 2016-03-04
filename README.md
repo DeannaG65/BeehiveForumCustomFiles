@@ -1,4 +1,4 @@
-# BeehiveForumCustomFiles
+# Beehive Forum Mods
 Layout and style modifications for Beehive Forum.
 
 In order to use these modifications, you will need to download the latest versions of <a href="https://github.com/beehiveforum/" target="_blank">Matt Beale's Beehive Forum Software</a>, then install it on your site. Once you've done this, you can download these files and upload them to replace the needed files. If you are using a default Beehive style, there are also modified versions of them available at the <a href="http://beehiveforum.us/index.php" target"_blank">Beehive Styles Forum</a>.
