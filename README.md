@@ -27,17 +27,17 @@ forums.php, register.php, search.php, threads.inc.php, and thread_options.php so
 
 Example:
 table class=posthead
--td posthead
---table posthead
----td posthead
+ td posthead
+  table posthead
+   td posthead
 
 By changing the classes of the inner areas, this issue has been solved. We chose to change these extra posthead areas out for postbody. The reasoning we chose postbody is simple, it's primarily used to control text and link behavior within a set interior area.
 
 Fix Example:
-table class=posthead  <-border class
--td class=postbody
---table class=postbody
----td class=postbody
+table class=posthead
+ td class=postbody
+  table class=postbody
+   td class=postbody
 
 forums.php, register.php, search.php, and thread_options.php need to be uploaded into your Beehive root folder. 
 
