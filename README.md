@@ -45,4 +45,8 @@ Example: home/yoursite/public_html/Beehive <- This last folder is where you want
 
 messages.inc.php and threads.inc.php need to be uploaded into your include folder.
 
+<<<<<<< HEAD
 Example: home/yoursite/public_html/Beehive/include <- This last folder is where you want messages.inc.php and threads.inc.php
+=======
+Example: home/yoursite/public_html/Beehive/include <- This last folder is where you want messages.inc.php and threads.inc.php
+>>>>>>> origin/master

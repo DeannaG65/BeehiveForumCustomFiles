@@ -103,4 +103,8 @@ echo forum_links_draw_dropdown();
 echo "</div>\n";
 echo "<div style=\"clear: both\"></div>\n";
 
+<<<<<<< HEAD
 html_draw_bottom();
+=======
+html_draw_bottom();
+>>>>>>> origin/master

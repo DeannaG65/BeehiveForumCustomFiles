@@ -519,6 +519,10 @@ foreach ($folder_order as $folder_number) {
         echo "  </tr>\n";
         echo "</table>\n";
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
         if ((!session::logged_in()) || ($folder_info[$folder_number]['INTEREST'] > FOLDER_IGNORED) || ($mode == UNREAD_DISCUSSIONS_TO_ME) || (isset($folder) && $folder == $folder_number)) {
 
             echo "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n";
@@ -785,7 +789,11 @@ foreach ($folder_order as $folder_number) {
     }
 }
 
+<<<<<<< HEAD
+echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"2\" class=\"postbody\">\n";
+=======
 echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"2\">\n";
+>>>>>>> origin/master
 
 if (!is_numeric($folder) && ($thread_count >= 50)) {
 
@@ -793,7 +801,11 @@ if (!is_numeric($folder) && ($thread_count >= 50)) {
     echo "  <td colspan=\"2\">&nbsp;</td>\n";
     echo "</tr>\n";
     echo "<tr>\n";
+<<<<<<< HEAD
+    echo "  <td align=\"left\" valign=\"top\" colspan=\"2\" class=\"postbody\">", html_style_image('forward'), "&nbsp;<a href=\"thread_list.php?webtag=$webtag&amp;mode=$mode&amp;page=", ($page + 1), "\" title=\"", gettext("Show next 50 threads"), "\">", gettext("Next 50 threads"), "</a></td>\n";
+=======
     echo "  <td align=\"left\" valign=\"top\" colspan=\"2\">", html_style_image('current_thread'), "&nbsp;<a href=\"thread_list.php?webtag=$webtag&amp;mode=$mode&amp;page=", ($page + 1), "\" title=\"", gettext("Show next 50 threads"), "\">", gettext("Next 50 threads"), "</a></td>\n";
+>>>>>>> origin/master
     echo "</tr>\n";
 }
 
@@ -804,7 +816,11 @@ echo "</table>\n";
 
 if (session::logged_in()) {
 
+<<<<<<< HEAD
+    echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"2\" class=\"postbody\">\n";
+=======
     echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"2\">\n";
+>>>>>>> origin/master
     echo "  <tr>\n";
     echo "    <td align=\"left\" colspan=\"2\">", gettext("Mark as Read"), ":</td>\n";
     echo "  </tr>\n";
@@ -850,7 +866,11 @@ if (session::logged_in()) {
     echo "</table>\n";
 }
 
+<<<<<<< HEAD
+echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"2\" class=\"postbody\">\n";
+=======
 echo "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"2\">\n";
+>>>>>>> origin/master
 echo "  <tr>\n";
 echo "    <td align=\"left\" colspan=\"2\">", gettext("Navigate"), ":</td>\n";
 echo "  </tr>\n";
@@ -871,4 +891,8 @@ echo "    </td>\n";
 echo "  </tr>\n";
 echo "</table>\n";
 
+<<<<<<< HEAD
 html_draw_bottom();
+=======
+html_draw_bottom();
+>>>>>>> origin/master
